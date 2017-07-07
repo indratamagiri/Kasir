@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.user.kasir.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:weightSum="1">
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food"
+            android:textSize="80px"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp">
+        <Spinner
+            android:id="@+id/makanan"
+            android:layout_width="166dp"
+            android:layout_height="80px"
+            android:entries="@array/makanan"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+            <EditText
+                android:id="@+id/exmakanan"
+                android:layout_marginTop="20px"
+                android:layout_width="193dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Quantity" />
+
+</LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drink"
+            android:textSize="80px"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp">
+
+            <Spinner
+                android:id="@+id/minuman"
+                android:layout_width="166dp"
+                android:layout_height="80px"
+                android:entries="@array/minuman"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <EditText
+                android:id="@+id/exminuman"
+                android:layout_marginTop="20px"
+                android:layout_width="193dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Quantity" />
+
+        </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:text="Tambah Menu"
+        android:layout_marginLeft="20px"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_weight="0.29" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/tvfood"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Food"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/tvqfood"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity Food"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/tvdrink"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Food"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/tvqdrink"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity Drink"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/tvprice"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="50px" />
+
+        <EditText
+            android:id="@+id/refund"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint=""
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:layout_marginLeft="20px"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
+
+
+        <TextView
+            android:id="@+id/tvchange"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp"
+
+            android:textSize="50px" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

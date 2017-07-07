@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Kasir</string>
+    <string-array name="makanan">
+        <item>Menu Makanan</item>
+        <item>Nasi Goreng</item>
+        <item>Sate</item>
+        <item>Mi Goreng</item>
+        <item>Sup buntut</item>
+        <item>Rendang</item>
+        <item>Mi Ayam</item>
+        <item>Ayam Bakar</item>
+        <item>Opor Ayam</item>
+    </string-array>
+
+    <string-array name="minuman">
+        <item> Menu Minuman </item>
+        <item>Es Teh </item>
+        <item>Teh Hangat</item>
+        <item>Lemon Tea</item>
+        <item>Jus Alpukat</item>
+        <item>Jus Jeruk</item>
+        <item>Jus Mangga</item>
+        <item>Soda Gembira</item>
+        <item>Jus Melon</item>
+    </string-array>
+
+</resources>
